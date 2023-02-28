@@ -1,3 +1,13 @@
+/* Style for JavaScript alert box */
+.alert {
+  background-color: #f44336; /* Red background */
+  color: white; /* White text */
+  padding: 1rem; /* Padding */
+  border-radius: 0.5rem; /* Rounded corners */
+  font-size: 1.2rem; /* Font size */
+  text-align: center; /* Centered text */
+  margin-bottom: 1rem; /* Margin bottom */
+}
 
 #PF {
     font-family: Arial, sans-serif;
