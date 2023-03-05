@@ -48,7 +48,7 @@ function askThreeRandomQuestions() {
 
 function validateAnswer(answer) {
   if (!answer || (answer.toLowerCase() !== "yes" && answer.toLowerCase() !== "no")) {
-    alert (invalid);
+    return "invalid";
   }
 
   return answer;
